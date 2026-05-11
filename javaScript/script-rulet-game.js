@@ -36,7 +36,7 @@ buttonStarsGame.addEventListener("click", (e)=>{
 
             if(i == numberRamdom){
                 containerResultRulet.innerHTML = `
-                    <h2>Enhorabuela al "afortunado": ${datesFormGame[i].nameperson}</h2>
+                    <h2>Enhorabuena al "afortunado": ${datesFormGame[i].nameperson}</h2>
                     <button class="result-rulet-deletet-button">Borrar todo</button>
                 `;
                 stopsWhile = false;
