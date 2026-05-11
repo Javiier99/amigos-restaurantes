@@ -1,0 +1,196 @@
+@import url(/css/global.css);
+
+/* Home */
+
+.body-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conjunto-completo-home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-button-admin{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-home{
+    width: 50%;
+    text-align: center;
+}
+
+@media(max-width: 1000px){
+    .text-home{
+        width: 90%;
+    }
+}
+
+
+/* ramdom numbers game  */
+
+.body-game-number-ramdom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.body-game-number-ramdom-container-body{
+    padding: 50px 0;
+}
+
+.body-game-number-ramdom-container-body, .container-appear-number-ramdom, .container-button-back-homen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.text-game-number-ramdom{
+    width: 60%;
+}
+
+.container-appear-number-ramdom{
+    padding: 0px 0 30px 0;
+}
+
+.the-number-ramdom{
+    font-size: 40px;
+}
+.the-number-ramdom::before{
+    content: "El número es: ";
+}
+
+@media(max-width: 1000px){
+    .body-game-number-ramdom {
+        margin: 150px 30px;
+    }
+    .text-game-number-ramdom{
+        width: 100%;
+    }
+}
+
+.buttom-star-game:hover, .button-delete-game-number-ramdom:hover{
+    cursor: pointer;
+}
+
+
+/* The rulet manipulated */
+
+.container-rulet-manipulatet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px 30px 0px;
+    gap: 20px;
+    text-align: center;
+}
+
+.container-rulet-manipulatet-text{
+    width: 60%;
+}
+
+.container-form-rulet-manipulatet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+
+.form-rulet-manipulatet-name{
+    color: var(--black);
+    font-family:var(--family-paragraphs);
+    font-size: var(--running-text-size);
+    padding: 5px 5px 5px 10px;
+    border: 2px var(--blue-dark-branding2) solid;
+    border-radius: 20px;
+}
+
+.form-rulet-manipulatet-buttom-stars-game{
+    margin-top: 10px;
+}
+
+.container-rulet-place-paticipants{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.container-rulet-place-paticipants-container-name{
+    border: solid var(--blue-dark-branding2) 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.container-result-rulet{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Is in all page */
+.final-legend-page{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media(max-width: 1000px){
+    .final-legend-page{
+        width: 90%;
+    }
+}
+
+
+.container-button-back-homen, .container-button-admin{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 20px;
+}
+
+.button-admin:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* List Food */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Register */
