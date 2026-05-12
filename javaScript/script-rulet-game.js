@@ -16,7 +16,7 @@ formRuleRamdom.addEventListener("submit",(e)=>{
 
     containerNames.innerHTML += `
         <div class="container-rulet-place-paticipants-container-name">
-            <h3>Participante: ${datesForm.nameperson}</h3>
+            <p>Participante: ${datesForm.nameperson}</p>
         </div>
     `;
     e.currentTarget.reset(datesFormGame);
